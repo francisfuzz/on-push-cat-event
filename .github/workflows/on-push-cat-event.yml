@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest    
     steps:
-    - name: concatenate the contents of $GITHUB_EVENT_PATH
+    - name: Custom Name
       run: |
-        cat $GITHUB_EVENT_PATH
+        cat $GITHUB_ACTION
