@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest    
     steps:
-    - name: Custom Name
+    - name: Custom Action Name
       run: |
         cat $GITHUB_ACTION
